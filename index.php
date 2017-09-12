@@ -46,17 +46,11 @@ $title = 'Project 1 | David Petringa';
             <section class="content">
                 <h2>Who Am I</h2>
                 <div class ="picture">
-
                     <img src="http://www.dukesnuz.com/images/harvard_id_picture_5.jpg" alt="David" width="150" height="150">
-                    <!--
-                    <img src="http://via.placeholder.com/150x150" alt="David" width="150" height="150">
-                  -->
                 </div>
 
                 <div class="about">
-                    <p>
-                        about me add text here
-                    </p>
+                    <p><?php echo $about; ?></p>
                 </div>
 
             </section>
@@ -77,6 +71,7 @@ $title = 'Project 1 | David Petringa';
             <li>Assignment: Project one</li>
             <li>Student: David Petringa</li>
             <li>Coded: September 2017</li>
+          </ul>
         </footer>
 
     </body>

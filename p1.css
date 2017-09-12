@@ -38,6 +38,9 @@ h1 {
 .about {
     float: left;
     padding-left: 100px;
+    width: 500px;
+    text-align: justify;
+    line-height: 125%;
 }
 .picture {
     float: left;
@@ -54,14 +57,17 @@ img {
     border-radius: 50%;
     border-color: #353877;
 }
-.error, .quote {
+.error {
     font-weight: bold;
     color: #ff0000;
 }
 .quote {
-    color: green;
+    color: #353877;
     font-weight: normal;
     font-style: italic;
+}
+.quoteMessage {
+    color: #353877;
 }
 footer {
     padding: 15px 0 200px 30px;
