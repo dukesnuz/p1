@@ -1,0 +1,78 @@
+/*****************************************************
+* p1.css
+* stylessheet for project 1
+* color palette http://paletton.com/#uid=13Y0u0kkLl-YL7wMYeO45sB0yH-
+* Class - HES - Dynamic Web Applications - Fall 2017
+******************************************************/
+body {
+    font-size: 1em;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 5px;
+}
+.banner {
+    padding: 15px 0 15px 30px;
+    background-color: #CDCDD0;
+    float: left;
+    width: 100%;
+}
+h1 {
+    color: #050952;
+    font-size: 2.75em;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+#wrapper {
+    clear: left;
+    margin: auto;
+    width: 80%;
+}
+.content {
+    padding-top: 25px;
+}
+.about {
+    float: left;
+    padding-left: 100px;
+    width: 500px;
+    text-align: justify;
+    line-height: 125%;
+}
+.picture {
+    float: left;
+}
+.quotes {
+    clear: left;
+    border-top: 2px dotted #CDCDD0;
+    margin: 250px 0 50px 0;
+    padding: 25px 0;
+}
+img {
+    border-style: double;
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #353877;
+}
+.error {
+    font-weight: bold;
+    color: #ff0000;
+}
+.quote {
+    color: #353877;
+    font-weight: normal;
+    font-style: italic;
+}
+.quoteMessage {
+    color: #353877;
+}
+footer {
+    padding: 15px 0 200px 30px;
+    font-size: .85em;
+    background-color: #8D8E9E;
+    color: #fff;
+    width: 100%;
+}
