@@ -43,7 +43,7 @@ $title = 'Project 1 | David Petringa';
             <section class="content">
 
                 <header>
-                  <h2>Greetings</h2>
+                  <h2>About Me</h2>
                 </header>
 
                 <div class ="picture">
