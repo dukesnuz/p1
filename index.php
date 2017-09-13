@@ -5,7 +5,7 @@
 //==============================================================
 // import the p1.contoller.php script
 include ('./includes/p1_controller.php');
-// set page title. Wanted to demonstrate and if else statement
+// set page title. Wanted to demonstrate an if else statement and variable
 $title = 'Project 1 | David Petringa';
 ?>
 <!DOCTYPE html>
@@ -14,17 +14,17 @@ $title = 'Project 1 | David Petringa';
 
         <title>
         <?php
-          if (isset($title)) {
-            echo $title;
-          } else {
-            echo 'Project 1';
-          }
-          ?>
+			if (isset($title)) {
+				echo $title;
+			} else {
+				echo 'Project 1';
+			}
+ ?>
         </title>
 
         <meta charset="UTF-8">
         <meta name="description" content="HES - Dynamic Web Applications - Project One">
-        <meta name="keywords" content="Dynamic Web Applications, ">
+        <meta name="keywords" content="html, css, php">
         <meta name="author" content="David Petringa">
 
         <link rel="shortcut icon" href="http://www.dukesnuz.com/images/favicon.ico">
@@ -41,28 +41,33 @@ $title = 'Project 1 | David Petringa';
 
         <div id ="wrapper">
             <section class="content">
-                <h2>Who Am I</h2>
+
+                <header>
+                  <h2>Greetings</h2>
+                </header>
 
                 <div class ="picture">
-                    <img src="http://www.dukesnuz.com/images/harvard_id_picture_5.jpg" alt="David" width="150" height="150">
+                  <img src="http://www.dukesnuz.com/images/harvard_id_picture_5.jpg" alt="David" width="150" height="150">
                 </div>
 
-                <div class="about">
-                    <p><?php echo $about; ?></p>
+                  <div class="about">
+                  <!--Print the value of the $about variable-->
+                  <p><?php echo $about; ?></p>
                 </div>
 
             </section>
 
             <section class="quotes">
+
                 <header>
-                    <h2>Quotes</h2>
+                  <h2>Quotes</h2>
                 </header>
 
+                <!--call the functon to print the quotes-->
                 <?php echo getQuotes($quotes); ?>
 
             </section>
-
-        </div><!--end wrapper div-->
+        </div><!--END wrapper div-->
 
         <footer>
 
