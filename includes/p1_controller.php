@@ -4,7 +4,7 @@
 // script p1.controller.php
 // This is the controller/logic script to output different quotes and messages on each page load.
 // This page is included in index.php which will display the quotes.
-// I understand it is not good to mix HTML and PHP. I felt there was not enough to cause an issue.
+// I understand it is not good to mix HTML and PHP. I felt there was not enough HTML to cause an issue.
 // I wanted to keep minimial php code in the index.php script.
 // Class - HES - Dynamic Web Applications - Fall 2017
 //===============================================================
@@ -51,14 +51,15 @@ function getQuotes($quotes): String
 * Reason - this is a class in Dynamic Web Applications and in the real world this data may be coming from a server.
 */
 $about = '
-          Greetings My name is David. I am currently working towards a Web Develpment Certificate. I love learning and
+          Greetings. My name is David. I am currently working towards a Web Develpment Certificate. I love learning and
           working with code. I started out working with software using <a href="https://en.wikipedia.org/wiki/FileMaker" target="_blank">Filemaker</a>
-          way way back. Sometime around when the first few releases came out. I have been in the transportation industry as a career. Coding
-          has always been a hobby and I developed Filemaker solutions for my company. Over the past few years I have expanded my desire to
-          branch out into the coding world. As a result I have taken classes and self-taught myself HTML, CSS, JavaScript, jQuery and a
-          little PHP and MySQL. I am also intersted in learning Angular and I have studied a little basic Angular code. My goal is to turn
-          my hobby of coding into a career. Simply put I want to get paid to play with code. I am really looking forward to the rest of this
-          class and the other technologies we are going to be learning. I very much enjoy working with PHP and I hope to come away with a
-          much more clearer and deeper understanding of it.
+          way way back. Sometime around when the first few releases came out. My working career has always been in the transportation industry. Coding
+          has always been a hobby. I have developed Filemaker solutions and a website for my company(a work in progress). Over the past few years I have
+          expanded my desire to branch out into the coding world as a career. As a result I have taken classes and self-taught myself HTML, CSS,
+          JavaScript and jQuery. As for PHP, MySQL and Angular 2, up to now all have only been self-taught. PHP is a favorite language for me.
+          I am taking this class to become more polished with respect to server-side technologies and Git version control. My goal is to turn my hobby
+          of coding into a career. Simply put I want to get paid to play with code. I am really excited and looking forward to the rest of this class
+          and the other technologies we are going to be learning. My goal is to come away with a much more clearer and deeper understanding of
+          server-side web development. Good luck to all.
           ';
 // No closing end tag needed ie
