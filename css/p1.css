@@ -76,3 +76,18 @@ footer {
     color: #fff;
     width: 100%;
 }
+.linkedinButton a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+.linkedinButton {
+    width: 350px;
+    background-color: blue;
+    font-size: 1.75em;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 40px;
+}
