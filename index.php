@@ -4,7 +4,7 @@
 // Class - HES - Dynamic Web Applications - Fall 2017
 //==============================================================
 // import the p1.contoller.php script
-include ('./includes/p1_controller.php');
+include('./includes/p1_controller.php');
 // set page title. Wanted to demonstrate an if else statement and variable
 $title = 'Project 1 | David Petringa';
 ?>
@@ -15,9 +15,9 @@ $title = 'Project 1 | David Petringa';
   <title>
     <?php
     if (isset($title)) {
-      echo $title;
+        echo $title;
     } else {
-      echo 'Project 1';
+        echo 'Project 1';
     }
     ?>
   </title>
@@ -79,7 +79,8 @@ $title = 'Project 1 | David Petringa';
       <li>School: Harvard Extension</li>
       <li>Class: Dynamic Web Applications</li>
       <li>Assignment: Project one</li>
-      <li>Student: David Petringa</li>
+      <li><a href="http://dukesnuz.com/self-study-courses/courses-menu/dukesnuz-david-petringa/">
+        Student: David Petringa</a></li>
       <li>Coded: September 2017</li>
     </ul>
 
