@@ -79,7 +79,7 @@ $title = 'Project 1 | David Petringa';
       <li>School: Harvard Extension</li>
       <li>Class: Dynamic Web Applications</li>
       <li>Assignment: Project one</li>
-      <li><a href="http://dukesnuz.com/self-study-courses/courses-menu/dukesnuz-david-petringa/">
+      <li><a href="http://dukesnuz.com/self-study-courses/courses-menu/dukesnuz-david-petringa#e-15">
         Student: David Petringa</a></li>
       <li>Coded: September 2017</li>
     </ul>
